@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+  <fileVersion>
+    <major>3</major>
+    <minor>57</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>New Project</title>
+  <author>vanderson</author>
+  <width value="29.0" unit="cm"/>
+  <height value="21.0" unit="cm"/>
+  <gridSpacing value="0.1" unit="in"/>
+  <components>
+    <diylc.boards.PerfBoard>
+      <name>Board1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.8" y="2.9"/>
+        <point x="5.9" y="5.4"/>
+      </controlPoints>
+      <firstPoint x="4.8" y="2.9"/>
+      <secondPoint x="5.9" y="5.4"/>
+      <boardColor hex="339900"/>
+      <borderColor hex="666600"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Bottom_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <spacing value="0.1" unit="in"/>
+      <padColor hex="cccccc"/>
+    </diylc.boards.PerfBoard>
+    <diylc.shapes.Rectangle>
+      <name>RECT2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.0" y="3.3"/>
+        <point x="4.2" y="3.6"/>
+      </controlPoints>
+      <firstPoint x="4.0" y="3.3"/>
+      <secondPoint x="4.2" y="3.6"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace1</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.6" y="3.2"/>
+        <point x="5.5" y="3.2"/>
+        <point x="5.55" y="3.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff6600"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace2</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.6" y="3.2"/>
+        <point x="5.6" y="4.2"/>
+        <point x="5.64" y="3.655"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff6600"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace3</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.0" y="5.0"/>
+        <point x="5.5" y="5.0"/>
+        <point x="5.2" y="5.04"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff0000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace4</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.5" y="3.8"/>
+        <point x="5.5" y="5.0"/>
+        <point x="5.5" y="4.35"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff0000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace5</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.0" y="4.5"/>
+        <point x="5.4" y="4.5"/>
+        <point x="5.2" y="4.5"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ccff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace6</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.4" y="4.5"/>
+        <point x="5.4" y="3.3"/>
+        <point x="5.4" y="3.95"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ccff"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace8</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.5" y="3.3"/>
+        <point x="5.5" y="3.7"/>
+        <point x="5.5" y="3.4"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ff0000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace9</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.0" y="5.2"/>
+        <point x="4.9" y="5.2"/>
+        <point x="5.05" y="5.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace10</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.9" y="5.2"/>
+        <point x="4.9" y="3.3"/>
+        <point x="4.9" y="4.35"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace11</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.9" y="3.3"/>
+        <point x="5.3" y="3.3"/>
+        <point x="5.1" y="3.3"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace12</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.6" y="4.3"/>
+        <point x="5.7" y="4.3"/>
+        <point x="5.6" y="4.3"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ff66"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace13</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.4" y="3.1"/>
+        <point x="5.7" y="3.1"/>
+        <point x="5.505" y="3.1"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ff66"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace14</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.7" y="3.1"/>
+        <point x="5.7" y="4.3"/>
+        <point x="5.7" y="3.55"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ff66"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace15</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.4" y="3.1"/>
+        <point x="5.4" y="3.2"/>
+        <point x="5.4" y="3.1"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="00ff66"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace16</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.3" y="3.2"/>
+        <point x="5.3" y="3.0"/>
+        <point x="5.3" y="3.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffff00"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace17</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.3" y="3.0"/>
+        <point x="5.8" y="3.0"/>
+        <point x="5.5" y="3.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffff00"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace18</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.8" y="3.0"/>
+        <point x="5.8" y="4.4"/>
+        <point x="5.8" y="3.45"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffff00"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace19</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.8" y="4.4"/>
+        <point x="5.6" y="4.4"/>
+        <point x="5.75" y="4.4"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffff00"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace7</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.0" y="4.4"/>
+        <point x="5.3" y="4.4"/>
+        <point x="5.15" y="4.4"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace20</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.1" y="3.4"/>
+        <point x="5.3" y="3.4"/>
+        <point x="5.15" y="3.4"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace21</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.3" y="3.4"/>
+        <point x="5.3" y="4.4"/>
+        <point x="5.26" y="3.8"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace22</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.1" y="3.7"/>
+        <point x="5.2" y="3.7"/>
+        <point x="5.15" y="3.7"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace23</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.2" y="3.7"/>
+        <point x="5.2" y="4.3"/>
+        <point x="5.2" y="4.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace24</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.2" y="4.3"/>
+        <point x="5.0" y="4.3"/>
+        <point x="5.1" y="4.3"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace25</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.1" y="4.0"/>
+        <point x="5.1" y="4.2"/>
+        <point x="5.1" y="3.95"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace26</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.1" y="4.2"/>
+        <point x="5.0" y="4.2"/>
+        <point x="5.1" y="4.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace27</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.6" y="5.0"/>
+        <point x="5.8" y="5.0"/>
+        <point x="5.7" y="5.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.connectivity.CopperTrace>
+      <name>Trace28</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.8" y="4.9"/>
+        <point x="5.6" y="4.9"/>
+        <point x="5.7" y="4.9"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="000000"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <thickness value="1.0" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.CopperTrace>
+    <diylc.misc.Label>
+      <name>L1</name>
+      <point x="5.6" y="2.8"/>
+      <text>1</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.Dot>
+      <name>Dot7</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="000000"/>
+      <point x="4.1" y="3.4"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot8</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="000000"/>
+      <point x="4.1" y="3.5"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Line>
+      <name>LN2</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.3" y="3.3"/>
+        <point x="5.5" y="3.3"/>
+        <point x="5.3" y="3.3"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <gamma>-0.6435011087932843</gamma>
+      <r>22.360679774997898</r>
+      <color hex="003333"/>
+      <style>SOLID</style>
+      <thickness value="15.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Line>
+      <name>LN1</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.3" y="3.2"/>
+        <point x="5.5" y="3.2"/>
+        <point x="5.3" y="3.2"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <gamma>-0.6435011087932843</gamma>
+      <r>22.360679774997898</r>
+      <color hex="003333"/>
+      <style>SOLID</style>
+      <thickness value="15.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Dot>
+      <name>Dot1</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.3" y="3.2"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot2</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.4" y="3.2"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot3</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.5" y="3.2"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot4</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.3" y="3.3"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot5</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.4" y="3.3"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot6</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.5" y="3.3"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Line>
+      <name>LN4</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.5" y="3.7"/>
+        <point x="5.5" y="3.8"/>
+        <point x="5.5" y="3.7"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <color hex="003333"/>
+      <style>SOLID</style>
+      <thickness value="15.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Dot>
+      <name>Dot9</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.5" y="3.7"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot10</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.5" y="3.8"/>
+    </diylc.connectivity.Dot>
+    <diylc.semiconductors.LED>
+      <name>D1</name>
+      <alpha>127</alpha>
+      <length value="5.0" unit="mm"/>
+      <width value="5.0" unit="mm"/>
+      <points>
+        <point x="5.1" y="4.0"/>
+        <point x="4.9" y="4.0"/>
+        <point x="5.085" y="3.995"/>
+      </points>
+      <bodyColor hex="5dfc0a"/>
+      <borderColor hex="41b007"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value></value>
+    </diylc.semiconductors.LED>
+    <diylc.semiconductors.LED>
+      <name>D2</name>
+      <alpha>127</alpha>
+      <length value="5.0" unit="mm"/>
+      <width value="5.0" unit="mm"/>
+      <points>
+        <point x="5.1" y="3.7"/>
+        <point x="4.9" y="3.705"/>
+        <point x="5.085" y="3.695"/>
+      </points>
+      <bodyColor hex="3366ff"/>
+      <borderColor hex="6666ff"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value></value>
+    </diylc.semiconductors.LED>
+    <diylc.semiconductors.LED>
+      <name>D3</name>
+      <alpha>127</alpha>
+      <length value="5.0" unit="mm"/>
+      <width value="5.0" unit="mm"/>
+      <points>
+        <point x="5.1" y="3.4"/>
+        <point x="4.9" y="3.405"/>
+        <point x="5.085" y="3.395"/>
+      </points>
+      <bodyColor hex="ff0000"/>
+      <borderColor hex="ff6666"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value></value>
+    </diylc.semiconductors.LED>
+    <diylc.misc.Label>
+      <name>L2</name>
+      <point x="4.1" y="4.7"/>
+      <text>11 - Error LED</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L3</name>
+      <point x="4.1" y="4.8"/>
+      <text>12 - PMode LED</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L4</name>
+      <point x="4.1" y="4.6"/>
+      <text>10 - HB LED</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L5</name>
+      <point x="4.1" y="5.3"/>
+      <text>13 - MOSI</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L6</name>
+      <point x="4.1" y="5.2"/>
+      <text>9 - MISO</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L7</name>
+      <point x="4.1" y="5.1"/>
+      <text>8 - SCK</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L8</name>
+      <point x="4.1" y="5.0"/>
+      <text>7 - RESET</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L9</name>
+      <point x="4.3" y="4.4"/>
+      <text>PRO Mini Pins</text>
+      <font name="Square721 BT Roman" size="14" style="1"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.Line>
+      <name>LN3</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.8" y="4.9"/>
+        <point x="5.8" y="5.0"/>
+        <point x="5.8" y="4.9"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <color hex="003333"/>
+      <style>SOLID</style>
+      <thickness value="15.0" unit="px"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx serialization="custom">
+        <java.awt.geom.AffineTransform>
+          <default>
+            <m00>1.0</m00>
+            <m01>0.0</m01>
+            <m02>0.0</m02>
+            <m10>0.0</m10>
+            <m11>1.0</m11>
+            <m12>0.0</m12>
+          </default>
+        </java.awt.geom.AffineTransform>
+      </arrowTx>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.connectivity.Dot>
+      <name>Dot11</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.8" y="4.9"/>
+    </diylc.connectivity.Dot>
+    <diylc.connectivity.Dot>
+      <name>Dot12</name>
+      <size value="1.0" unit="mm"/>
+      <color hex="cc9900"/>
+      <point x="5.8" y="5.0"/>
+    </diylc.connectivity.Dot>
+    <diylc.passive.Resistor>
+      <name>R1</name>
+      <alpha>127</alpha>
+      <length value="0.1" unit="in"/>
+      <width value="0.05" unit="in"/>
+      <points>
+        <point x="5.6" y="4.9"/>
+        <point x="5.5" y="4.9"/>
+        <point x="5.57" y="4.93"/>
+      </points>
+      <bodyColor hex="666600"/>
+      <borderColor hex="999999"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <value value="10.0" unit="K"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Tubular</shape>
+    </diylc.passive.Resistor>
+    <diylc.misc.Label>
+      <name>L10</name>
+      <point x="6.5" y="4.9"/>
+      <text>Baud Rate Selection Jumper</text>
+      <font name="Square721 BT Roman" size="14" style="1"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L11</name>
+      <point x="6.0" y="5.0"/>
+      <text>OPEN -19200</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L12</name>
+      <point x="6.0" y="5.1"/>
+      <text>CLOSE -38400</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.semiconductors.DIL__IC>
+      <name>Pro Mini</name>
+      <alpha>46</alpha>
+      <value></value>
+      <orientation>DEFAULT</orientation>
+      <pinCount>_24</pinCount>
+      <pinSpacing value="0.1" unit="in"/>
+      <rowSpacing value="0.6" unit="in"/>
+      <controlPoints>
+        <point x="5.0" y="4.2"/>
+        <point x="5.0" y="4.3"/>
+        <point x="5.0" y="4.4"/>
+        <point x="5.0" y="4.5"/>
+        <point x="5.0" y="4.6"/>
+        <point x="5.0" y="4.7"/>
+        <point x="5.0" y="4.8"/>
+        <point x="5.0" y="4.9"/>
+        <point x="5.0" y="5.0"/>
+        <point x="5.0" y="5.1"/>
+        <point x="5.0" y="5.2"/>
+        <point x="5.0" y="5.3"/>
+        <point x="5.6" y="4.2"/>
+        <point x="5.6" y="4.3"/>
+        <point x="5.6" y="4.4"/>
+        <point x="5.6" y="4.5"/>
+        <point x="5.6" y="4.6"/>
+        <point x="5.6" y="4.7"/>
+        <point x="5.6" y="4.8"/>
+        <point x="5.6" y="4.9"/>
+        <point x="5.6" y="5.0"/>
+        <point x="5.6" y="5.1"/>
+        <point x="5.6" y="5.2"/>
+        <point x="5.6" y="5.3"/>
+      </controlPoints>
+      <display>BOTH</display>
+      <bodyColor hex="003399"/>
+      <borderColor hex="595959"/>
+      <labelColor hex="ffffff"/>
+      <indentColor hex="595959"/>
+      <displayNumbers>NO</displayNumbers>
+    </diylc.semiconductors.DIL__IC>
+    <diylc.misc.Label>
+      <name>L13</name>
+      <point x="6.3" y="3.6"/>
+      <text>Power Jumper</text>
+      <font name="Square721 BT Roman" size="14" style="1"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L14</name>
+      <point x="6.0" y="3.7"/>
+      <text>OPEN -NO POWER</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L15</name>
+      <point x="6.0" y="3.8"/>
+      <text>CLOSE - 3V3 OUTPUT</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+  </components>
+  <groups>
+    <set>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[8]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[5]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[6]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[7]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[4]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[3]"/>
+    </set>
+    <set>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[9]"/>
+      <diylc.connectivity.Dot reference="../../../components/diylc.connectivity.Dot[10]"/>
+    </set>
+  </groups>
+  <lockedLayers/>
+  <hiddenLayers/>
+  <font name="Square721 BT Roman" size="14" style="0"/>
+</project>
